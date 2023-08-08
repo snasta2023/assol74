@@ -1,0 +1,139 @@
+/* header  */
+
+body {
+    font-family:  'Open Sans', sans-serif;
+    color: #1C1917;
+}
+
+.body-container {
+   /* max-width: 1024px;*/
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+#header {
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#5c7ca1;
+}
+.header-text{
+    color: #ffff;
+    
+}
+
+#logo {
+    width: 66px;
+    height: 100px;
+    object-fit: contain;
+}
+.home {
+    padding-top: 133px;
+}
+
+.Assol{
+
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 35px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    }
+    
+    
+        
+        .menu {
+            display: flex;
+            align-items: inherit;
+            
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            color: #FFFFFF;
+            padding-right: 81px;
+            font-family: 'Open Sans';
+        }
+    
+    #menu-item1, #menu-item2,#menu-item3, #menu-item4,#menu-item5 {
+        padding: 0 10px;
+        text-indent: 10px;
+        
+    }
+    .menu a{
+        text-decoration: none;
+        color: #e0e6ee;
+        padding: 0 10px;
+       
+    }
+    
+    .menu-item1:hover, .menu-item2:hover, .menu-item3:hover, .menu-item4:hover, .menu-item5:hover{
+        background-color:#ffff;
+        color: #5c7ca1;
+        padding: 7px;
+        border-radius: 5px;
+    }
+    .menu-item1:active, .menu-item2:active, .menu-item3:active, .menu-item4:active, .menu-item5:active{
+        background-color: #9b8079;
+        color: white;
+        padding: 7px;
+        border-radius: 5px;
+    }
+
+    .haus {
+        height: 538px;
+        background: url(главная1.jpeg);
+        background-position: center top;
+        background-size: cover;
+    }
+
+    .haus-title {
+        font-size: 39px;
+        font-weight: bold;
+        margin-bottom: 16px;
+        max-width: 45%;
+        /* padding-top: 48px; */
+        /* padding-left: 155px; */
+        font-family: 'Open Sans';
+    }
+    
+    .haus-text {
+        font-size: 20px;
+        color: #363F4E;
+        font-weight: 500;
+        line-height: 19px;
+        font-family: 'Open Sans';
+        margin-bottom: 16px;
+    }
+    .restangle3 {
+        border-radius: 55px;
+        background: linear-gradient(20deg, #D4CECC 0.2%, #eff2f7 7.15%, rgba(0, 0, 0, 0) 215.5% );
+        padding-bottom: 52px;
+        padding: 19px 13px 20px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+    .button-haus {
+        border: none;
+        padding: 9px 64px;
+        background-color: #5474a4;
+        color: white;
+        border-radius: 8px;
+        font-size: 19px;
+        box-shadow: 2px 2px 4px #d6d3d1;
+        font-family: 'Open Sans';
+        display: flex;
+        align-content: stretch;
+    
+    }
