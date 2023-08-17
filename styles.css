@@ -137,3 +137,17 @@ body {
         align-content: stretch;
     
     }
+
+    a, u {
+        text-decoration: none;
+      }
+
+      .button-haus:hover{
+        background-color:#ffff;
+        color: #5c7ca1;
+      }
+
+      .button-haus:active{
+        background-color: #9b8079;
+        color: white;
+      }
